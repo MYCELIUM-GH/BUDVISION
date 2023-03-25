@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-export default function Header({name}) {
+export default function Header({ name }) {
   return (
     <HeaderTag>
       <LogoTag>{name}</LogoTag>
@@ -21,6 +21,9 @@ const HeaderTag = styled.div`
 `;
 const LogoTag = styled.div`
   color: #d0ed57;
-  font-weight: 450;
+  font-family: pacific-sans-light;
+  font-size: 32px;
+  line-height: 0.8;
   text-shadow: #d0ed57 -1px -2px 0.7em;
+  user-select: none;
 `;

@@ -7,11 +7,8 @@ export default function App() {
   return (
     <Page>
       <Header
-        name=": : : : NETTECH_BANK : : : :"
+        name="BUDVISION"
       />
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
-    
     </Page>
   );
 }
