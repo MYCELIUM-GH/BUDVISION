@@ -3,7 +3,7 @@
 }
 @font-face {
   font-family: pacific-sans-light;
-  src: url(fonts/Pacific_Sans_Light.ttf);
+  src: url(./Pacific_Sans_Light.ttf);
 }
 body,
 html {
